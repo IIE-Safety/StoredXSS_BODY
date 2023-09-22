@@ -2,7 +2,7 @@ BUG_Author:
 LJWIIE
 
 Affected version:
-Concrete CMS
+Concrete CMS versions 9.2.1 and earlier
 
 Vendor:
 https://www.concretecms.org/
