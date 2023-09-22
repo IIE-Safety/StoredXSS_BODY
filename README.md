@@ -201,9 +201,3 @@ Content-Disposition: form-data; name="__ccm_consider_request_as_xhr"
 
 ![image](https://github.com/IIE-Safety/StoredXSS_BODY/assets/65028436/aa0a61ad-c1c2-4903-8019-a1fa9a4f060c)
 
-
-
-![image-20230922222030311](C:\Users\ljw\AppData\Roaming\Typora\typora-user-images\image-20230922222030311.png)
-
-
-
