@@ -24,7 +24,7 @@ Status: Medium
 
 POST parameter 'body' contains a Stored Cross-Site Scripting (XSS) vulnerability
 
-[Redirect to Google official website]Payload1:
+[**Redirect to Google official website**]Payload1:
 
 ```html
 POST /concretecms/index.php/ccm/system/dialogs/block/edit/submit?ccm_token=1695391704:f08febc0b74c604e3155a7c1dae52c5b&cID=1&arHandle=Main+%3A+3+%3A+Column+2&bID=1659 HTTP/1.1
@@ -112,12 +112,14 @@ Content-Disposition: form-data; name="__ccm_consider_request_as_xhr"
 
 ![image](https://github.com/IIE-Safety/StoredXSS_BODY/assets/65028436/c20eeb0d-78a7-4f65-a48a-c0e81469355e)
 
+![image](https://github.com/IIE-Safety/StoredXSS_BODY/assets/65028436/2894443e-d57d-4b80-9d59-b76f3eb0f98b)
+
 Once edited and saved, anyone visiting this page will be forced to visit the Google website.
 Below is a gif showing it.
 
 ![RedirectToGoogle](https://github.com/IIE-Safety/StoredXSS_BODY/assets/65028436/3d2ed4e1-abec-4053-8166-5bdf198de7bd)
 
-[Display alert window]Payload2:
+[**Display alert window**]Payload2:
 
 ```html
 POST /concretecms/index.php/ccm/system/dialogs/block/edit/submit?ccm_token=1695391704:f08febc0b74c604e3155a7c1dae52c5b&cID=1&arHandle=Main+%3A+3+%3A+Column+2&bID=1659 HTTP/1.1
@@ -199,6 +201,8 @@ Content-Disposition: form-data; name="__ccm_consider_request_as_xhr"
 ------WebKitFormBoundaryTHazfOhCNYBmeP8N--
 ```
 ![image](https://github.com/IIE-Safety/StoredXSS_BODY/assets/65028436/8eb05aa6-b84c-4839-994f-78b318a3e324)
+
+![image](https://github.com/IIE-Safety/StoredXSS_BODY/assets/65028436/2894443e-d57d-4b80-9d59-b76f3eb0f98b)
 
 ![image](https://github.com/IIE-Safety/StoredXSS_BODY/assets/65028436/aa0a61ad-c1c2-4903-8019-a1fa9a4f060c)
 
